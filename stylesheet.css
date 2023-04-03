@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #F5F5F5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 1.4rem 7%;
+}
+
+header {
+  background-image: url("Assets/Coffe\ Header.png");
+  background-size: cover;
+  /* background-color: #143642B2; */
+  height: 600px;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  opacity: 0.8;
+}
+
+.header-wrapper {
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 130px;
+}
+
+.header-container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.header-text {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+.logo {
+  width: 50%;
+  height: 50%;
+}
+
+.header-left {
+  float: left;
+  position: absolute;
+  height: 50px;
+  width: 300px;
+}
+
+.header-right {
+  float: right;
+  margin-right: 0px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-size: large;
+}
+
+.who-are-we {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.who-are-we-left {
+  float: left;
+}
+
+.who-are-we-image {
+  width: 350px;
+  height: 500px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.who-are-we-right {
+  float: right;
+}
+
+.who-are-we-right h1 {
+  font-size: xx-large;
+  color: #0F8B8D;
+  margin-top: 200px;
+}
+
+.who-are-we-right p {
+  font-size: medium;
+  margin-top: 50px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
