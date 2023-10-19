@@ -5,6 +5,7 @@
   outline: none;
   border: none;
   text-decoration: none;
+  --space-unit: 50px;
 }
 
 body {
@@ -134,6 +135,7 @@ section {
   flex-direction: row;
   width: 700px;
   column-gap: 50px;
+  margin-top: var(--space-unit);
 }
 
 section.product-showcase {
@@ -142,22 +144,56 @@ section.product-showcase {
 
 section div img {
   width: 200px;
+  height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 section div h1 {
   color: #0F8B8D;
-  font: size 40px;
-  line-height: 57.6px;
-  border-bottom: 20px orange solid;
+  font-size: 38px;
+  line-height: 60.6px;
+  border-bottom: 5px orange solid;
   display: inline-block;
+  margin-bottom: 8px;
+}
+
+section div p {
+  line-height: 1.3;
 }
 
 section.find-us-out {
   height: auto;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.find-us-out h1, .ask-us-more h1 {
+  border-bottom: none;
+}
+
+.find-us-out h1 span {
+  color: #EC9A29;
+}
+
+.find-us-out-image {
+  flex: 1 0 calc(33.333% - 20px);
+
+}
+
+section.ask-us-more {
+  height: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 main {
