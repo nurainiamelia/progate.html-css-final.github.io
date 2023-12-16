@@ -214,6 +214,14 @@ input {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.contact-submit {
+  background-color: #A8201A;
+  color: white;
+  font-weight: 700;
+  width: 400px;
+  border-radius: 25px;
+}
+
 footer {
   background-color: #143642;
   color: #fff;
